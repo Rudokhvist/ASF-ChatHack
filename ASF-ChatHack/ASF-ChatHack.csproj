@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Ryzhehvost</Authors>
+    <AssemblyVersion>0.1</AssemblyVersion>
+    <TargetFrameworks>netcoreapp2.2;net472</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Composition.AttributedModel" Version="1.3.0-preview.19073.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArchiSteamFarm\ArchiSteamFarm\ArchiSteamFarm.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="mkdir $(TargetDir)ASF-ChatHack&#xD;&#xA;copy $(TargetPath) $(TargetDir)ASF-ChatHack\&#xD;&#xA;7z a -tzip -mx7  ASF-ChatHack.zip $(TargetDir)ASF-ChatHack" />
+  </Target>
+
+</Project>
