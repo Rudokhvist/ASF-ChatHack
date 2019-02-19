@@ -42,3 +42,5 @@ Works only with ASF 4.0+ (check release notes to find out actual required versio
 - скачайте файл .zip из [последнего релиза](https://github.com/Ryzhehvost/ASF-ChatHack/releases/latest), в большинстве случаев вам нужен файл `ASF-ChatHack.zip`, не если вы по какой-то причине пользуетесь ASF-generic-netf.zip (а для этого нужны веские причины) - скачайте `ASF-ChatHack-netf.zip`. Убедитесь что выбранный релиз поддерживает вашу версию ASF.
 - распакуйте скачанный файл .zip в папку `plugins` внутри вашей папки с ASF.
 - (пере)запустите ASF, вы должны получить сообщение что плагин успешно загружен. 
+
+![downloads](https://img.shields.io/github/downloads/Ryzhehvost/ASF-ChatHac/total.svg?style=social)
