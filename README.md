@@ -43,4 +43,4 @@ Works only with ASF 4.0+ (check release notes to find out actual required versio
 - распакуйте скачанный файл .zip в папку `plugins` внутри вашей папки с ASF.
 - (пере)запустите ASF, вы должны получить сообщение что плагин успешно загружен. 
 
-![downloads](https://img.shields.io/github/downloads/Ryzhehvost/ASF-ChatHac/total.svg?style=social)
+![downloads](https://img.shields.io/github/downloads/Ryzhehvost/ASF-ChatHack/total.svg?style=social)
